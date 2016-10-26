@@ -1,0 +1,14 @@
+Package: fizzbuzzR
+Type: Package
+Title: fizzbuzz implementation in R
+Version: 0.1
+Date: 2016-10-26
+Authors@R: person("Ansgar","Wenzel",email="ansgar.wenzel+fizzbuzzR@gmail.com",role=c("aut","cre"))
+Description: This package provides one function, namely a fizzbuzz function with
+    several parameters. The aim of this is for interviewees to simply answer "I use
+    fizzbuzzR::fizzbuzz()" when interviewing.
+License: GPL (>= 3)
+LazyData: TRUE
+Depends:
+    R (>= 3.1.0)
+RoxygenNote: 5.0.1
