@@ -5,7 +5,7 @@
 This is an implementation of the fizzbuzz algorithm with several parameters
 }
 \description{
-This function calculates fizzbuzz as is often asked in interviews, thus giving interviewees the possible answer 'I use fizzbuzzR::fizzbuzz() with standard options'
+This function calculates fizzbuzz as is often asked in interviews. This gives interviewees the alternative answer of 'I use fizzbuzzR::fizzbuzz() with standard options'
 }
 \usage{
 fizzbuzz(start = 1, end = 20, step = 1, mod1 = 3, mod2 = 5)
@@ -13,24 +13,24 @@ fizzbuzz(start = 1, end = 20, step = 1, mod1 = 3, mod2 = 5)
 
 \arguments{
   \item{start}{
-denotes the start of the for loop
+The start of the for loop
 }
   \item{end}{
-denotes the last number of the for loop
+Tast number of the for loop
 }
   \item{step}{
-denotes the step size of the for loop in question
+The step size of the for loop
 }
   \item{mod1}{
-mod1 is the number that should be replaced with fizz
+mod1 is the number replaced with fizz
 }
   \item{mod2}{
-mod2 is the number that should be replaced by Buzz
+mod2 is the number replaced by Buzz
 }
 }
 
 \value{
-no return, fizzbuzz simply prints the numbers replaced with fizz/buzz as required, to the screen.
+Fizzbuzz simply prints the numbers, replaced with fizz/buzz as required, to the screen.
 }
 \references{
 [wiki]https://en.wikipedia.org/wiki/Fizz_buzz

@@ -1,12 +1,14 @@
 Package: fizzbuzzR
 Type: Package
-Title: Fizzbuzz Implementation in R
+Title: Fizzbuzz Implementation
 Version: 0.1
 Date: 2016-10-26
 Authors@R: person("Ansgar","Wenzel",email="ansgar.wenzel+fizzbuzzR@gmail.com",role=c("aut","cre"))
-Description: Implementation of the fizzbuzz algorithm. This is the only function this package, 
-    providing several parameters. The aim of this is for interviewees to simply answer "I use
-    fizzbuzzR::fizzbuzz()" when interviewing.
+Description: An implementation of the fizzbuzz algorithm, as defined e.g. in https://en.wikipedia.org/wiki/Fizz_buzz. 
+It provides the standard algorithm with 3 replaced by Fizz and 5 replaced by Buzz, with the option of specifying start 
+and end numbers, step size and the numbers being replaced by fizz and buzz, respectively. This package gives 
+interviewers the optional answer of "I use fizzbuzzR::fizzbuzz()" when interviewing rather than having to write an algorithm
+themselves.
 License: GPL (>= 3)
 LazyData: TRUE
 Depends:
